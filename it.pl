@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 use feature 'say';
-Use File::Glob ':bsd_glob';
+use File::Glob ':bsd_glob';
 use Term::ANSIColor qw/color :constants/;
 use Getopt::Long qw/GetOptions :config bundling/;
 use File::Basename 'basename';
