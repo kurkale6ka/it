@@ -20,7 +20,22 @@ sub help() {
    print <<MSG;
 ${S}SYNOPSIS${R}
 ${S}OPTIONS${R}
---ips : list IPs
+ips vs it?
+
+Import
+  - it ip -a?
+    it ip/dc : list by default
+    it 1.1.1.1/'DC' : info
+
+  - file
+  - DB
+
+Input
+  - IP => all info
+Info
+  - ISP
+  - range, free?, pub/priv/...
+  - location: DC, rack, host name?
 ${S}DESCRIPTION${R}
 MSG
    exit;
